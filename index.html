@@ -71,6 +71,7 @@
         class="carousel slide"
         data-bs-ride="true"
       >
+        <!-- Carousel Indicators -->
         <div class="carousel-indicators">
           <button
             type="button"
@@ -92,30 +93,92 @@
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
         </div>
         <div class="carousel-inner">
+          <!-- First item & active item on page load -->
           <div class="carousel-item active">
             <img
-              src="https://www.allaboutbirds.org/guide/assets/photo/64809691-1280px.jpg"
+              src="imgs/killdeer_defending_nest_2.JPG"
               class="d-block w-100"
               alt="..."
             />
           </div>
+
+          <!-- Other carousel items -->
           <div class="carousel-item">
             <img
-              src="https://www.allaboutbirds.org/guide/assets/photo/64809671-1280px.jpg"
+              src="imgs/killdeer_close_up.JPG"
               class="d-block w-100"
               alt="..."
             />
           </div>
+
           <div class="carousel-item">
             <img
-              src="https://www.allaboutbirds.org/guide/assets/photo/64809631-1280px.jpg"
+              src="imgs/killdeer_incubating_in_nest.JPG"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="imgs/killdeer_chick.JPG"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="imgs/killdeer_nest_four_eggs.JPG"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="imgs/killdeer_nest_three_eggs.JPG"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="imgs/killdeer_egg_float.JPG"
               class="d-block w-100"
               alt="..."
             />
           </div>
         </div>
+
+        <!-- Button for previous item in carousel -->
         <button
           class="carousel-control-prev"
           type="button"
@@ -125,6 +188,8 @@
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
+
+        <!-- Button for previous item in carousel -->
         <button
           class="carousel-control-next"
           type="button"
