@@ -14,6 +14,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -66,16 +75,12 @@
     <!-- Carousel -->
     <!-------------->
     <div class="container carousel-container">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="true"
-      >
+      <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
         <!-- Carousel Indicators -->
         <div class="carousel-indicators">
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide-to="0"
             class="active"
             aria-current="true"
@@ -83,42 +88,43 @@
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide-to="4"
             aria-label="Slide 5"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide-to="5"
             aria-label="Slide 6"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide-to="6"
             aria-label="Slide 7"
           ></button>
         </div>
-        <div class="carousel-inner">
+
+        <div class="container carousel-inner">
           <!-- First item & active item on page load -->
           <div class="carousel-item active">
             <img
@@ -182,7 +188,7 @@
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselIndicators"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -193,7 +199,7 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselIndicators"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -206,24 +212,56 @@
     <!-- Footer -->
     <!------------>
     <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Features</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">FAQs</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">About</a>
-        </li>
-      </ul>
-      <p class="text-center text-muted">© 2022 Company, Inc</p>
+      <div class="row">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">
+              <img src="imgs/downsview_park_logo.svg" alt="" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="row justify-content-around py-3 my-4">
+        <!-- Contact Form -->
+        <div style="height: 300px; width: 400px; background-color: pink"></div>
+
+        <!-- Footer Information -->
+        <div style="height: 300px; width: 400px; background-color: pink">
+          <!-- Logos -->
+          <div class="row justify-content-around py-2 my-2">
+            <a href="#" class="york-logo nav-link px-2 text-muted">
+              <img src="imgs/Logo_York_University.svg" alt="" />
+            </a>
+
+            <a href="#" class="downsview-park-logo nav-link px-2 text-muted">
+              <img src="imgs/downsview_park_logo.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center py-3 my-4">
+        <p class="text-center text-muted">
+          Made with <i class="fa-solid fa-heart"></i> by
+          <a class="made-by text-muted" href="https://github.com/tran-kenneth"
+            ><i class="fa-brands fa-github"></i> Kenneth Tran</a
+          >
+        </p>
+      </div>
     </footer>
 
     <!--------------------------------------------->

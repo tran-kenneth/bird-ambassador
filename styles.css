@@ -1,8 +1,23 @@
-.carousel-container {
+/*.carousel-container {
   width: 900px;
-}
+}*/
 
-.carousel-item {
+/*.carousel-item {
   width: 900px;
   height: 600px;
+}*/
+
+body {
+  background-color: rgb(221, 255, 244);
+}
+.york-logo {
+  width: 150px;
+}
+
+.downsview-park-logo {
+  width: 170px;
+}
+
+.made-by {
+  text-decoration: none;
 }
