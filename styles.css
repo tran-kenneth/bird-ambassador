@@ -1,3 +1,16 @@
+/*Color Palettes
+*/
+
+.set1 {
+  color: #a4243b #d8c99b #d8973c #bd632f #273e47;
+}
+.set2 {
+  color: #002400 #273b09 #58641d #7b904b #dbd2e0;
+}
+.set3 {
+  color: #585123 #eec170 #f2a65a #f58549 #772f1a;
+}
+
 /*.carousel-container {
   width: 900px;
 }*/
