@@ -4,15 +4,15 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    version="1.0"
-   width="130"
-   height="50"
+   width="260"
+   height="100"
    id="svg2">
   <defs
      id="defs4" />
 
   <g
      id="layer1"
-     transform="scale(0.15)">
+     transform="scale(0.3)">
      
     <g
        transform="matrix(4.6833423,0,0,4.6833423,-2179.7583,-3914.9763)"

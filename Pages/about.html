@@ -24,7 +24,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body class="container-fluid">
     <!------------>
@@ -33,7 +33,7 @@
     <header class="header-container">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">The Bird Ambassador</a>
+          <a class="navbar-brand" href="../index.html">The Bird Ambassador</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -48,16 +48,21 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Pages/schedule.html">Schedule</a>
+                <a class="nav-link" href="schedule.html">Schedule</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Pages/activities.html">Activities</a>
+                <a class="nav-link" href="activities.html">Activities</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Pages/about.html">About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
             </ul>
           </div>
@@ -65,144 +70,61 @@
       </nav>
     </header>
 
-    <!-------------->
-    <!-- Carousel -->
-    <!-------------->
-    <div class="container carousel-container">
-      <div
-        id="carouselIndicators"
-        class="carousel slide carousel-fade"
-        data-bs-ride="true"
-      >
-        <!-- Carousel Indicators -->
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="4"
-            aria-label="Slide 5"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="5"
-            aria-label="Slide 6"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="6"
-            aria-label="Slide 7"
-          ></button>
+    <!---------------->
+    <!--    About   -->
+    <!---------------->
+    <div class="container about py-2 my-2">
+      <h1 style="margin: 20px" class="text-center">About Me</h1>
+      <div class="container d-flex flex-wrap justify-content-around py-2 my-2">
+        <!-- Pic -->
+        <div style="max-width: 500px; height: auto">
+          <img src="../imgs/bird_ambassador_milly.jpg" alt="" />
         </div>
 
-        <div class="container carousel-inner">
-          <!-- First item & active item on page load -->
-          <div class="carousel-item active">
-            <img
-              src="imgs/killdeer_defending_nest_2.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <!-- Other carousel items -->
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_close_up.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_incubating_in_nest.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_chick.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_nest_four_eggs.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_nest_three_eggs.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_egg_float.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
+        <!-- Info -->
+        <div style="max-width: 500px; height: auto">
+          <div class="container">
+            <h2 class="py-2 my-2">Milly H.</h2>
+            <h4 class="py-2 my-2">
+              MSc in Biology at York University, McKinnon Lab
+            </h4>
+            <p class="py-2 my-2">
+              <a
+                href="https://www.instagram.com/thebirdambassador/"
+                class="text-muted"
+                ><i class="fa-brands fa-instagram"></i> @thebirdambassador</a
+              >
+            </p>
+            <p class="py-4 my-4">
+              Hello! In collaboration with York University and Downsview Park, I
+              launched the bird ambassador program which strives to promote
+              citizen science for bird conservation in the community. Birds are
+              my passion and I hope to share with everyone the wonders of the
+              bird world!
+            </p>
+            <ul>
+              <li>
+                Master's thesis on Dunlin nest survival in relation to rodent
+                population cycles
+                <a
+                  href="https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/40762/Hong_Milly_2022_Masters.pdf?sequence=2&isAllowed=y"
+                  >(link to thesis)</a
+                >
+              </li>
+              <li>
+                Killdeer Nest Monitoring Lead at Downsview Park from 2021-2022
+              </li>
+              <li>
+                Ornithology Collections Research Assistant at Royal Ontario
+                Museum
+                <a
+                  href="https://onlinelibrary.wiley.com/doi/full/10.1111/btp.13109"
+                  >(link to publication)</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-
-        <!-- Button for previous item in carousel -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-
-        <!-- Button for previous item in carousel -->
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
 
@@ -296,7 +218,7 @@
                 href="https://www.glendon.yorku.ca/mckinnonlab/"
                 class="york-logo text-muted"
               >
-                <img src="imgs/Logo_York_University.svg" alt="" />
+                <img src="../imgs/Logo_York_University.svg" alt="" />
               </a>
             </p>
           </div>
@@ -309,7 +231,7 @@
                 href="https://downsviewpark.ca/events/bird-ambassador-program"
                 class="downsview-park-logo text-muted"
               >
-                <img src="imgs/downsview_park_logo.svg" alt="" />
+                <img src="../imgs/downsview_park_logo.svg" alt="" />
               </a>
             </p>
           </div>

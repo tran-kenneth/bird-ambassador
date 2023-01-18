@@ -24,7 +24,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body class="container-fluid">
     <!------------>
@@ -33,7 +33,7 @@
     <header class="header-container">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">The Bird Ambassador</a>
+          <a class="navbar-brand" href="../index.html">The Bird Ambassador</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -48,16 +48,21 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Pages/schedule.html">Schedule</a>
+                <a class="nav-link" href="#">Schedule</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Pages/activities.html">Activities</a>
+                <a class="nav-link" href="activities.html">Activities</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Pages/about.html">About</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
             </ul>
           </div>
@@ -66,143 +71,28 @@
     </header>
 
     <!-------------->
-    <!-- Carousel -->
+    <!-- Schedule -->
     <!-------------->
-    <div class="container carousel-container">
+    <div class="container schedule py-2 my-2">
       <div
-        id="carouselIndicators"
-        class="carousel slide carousel-fade"
-        data-bs-ride="true"
+        style="height: auto; width: auto"
+        class="container justify-content-center"
       >
-        <!-- Carousel Indicators -->
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="4"
-            aria-label="Slide 5"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="5"
-            aria-label="Slide 6"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="6"
-            aria-label="Slide 7"
-          ></button>
+        <h1 style="margin: 20px" class="text-center">Schedule</h1>
+        <div class="container">
+          <h2>Wednesdays from June 29 to September 28:</h2>
+          <p>4:15 to 5:15 pm - Citizen Science (Meet at 70 Canuck Ave)</p>
+          <p>
+            6:30 to 7:45 pm - Bird Information Table (Trail Entrance near 70
+            Canuck Parking Lot)
+          </p>
+
+          <h2>Thursdays from June 30 to September 29:</h2>
+          <p>4:15 to 5:15 pm - Citizen Science (Meet at 70 Canuck Ave)</p>
+          <p>
+            6:50 to 7:50 pm - Bird Walk (*Trail Entrance or Orchard Pavilion)
+          </p>
         </div>
-
-        <div class="container carousel-inner">
-          <!-- First item & active item on page load -->
-          <div class="carousel-item active">
-            <img
-              src="imgs/killdeer_defending_nest_2.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <!-- Other carousel items -->
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_close_up.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_incubating_in_nest.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_chick.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_nest_four_eggs.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_nest_three_eggs.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-
-          <div class="carousel-item">
-            <img
-              src="imgs/killdeer_egg_float.JPG"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-        </div>
-
-        <!-- Button for previous item in carousel -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-
-        <!-- Button for previous item in carousel -->
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
 
@@ -296,7 +186,7 @@
                 href="https://www.glendon.yorku.ca/mckinnonlab/"
                 class="york-logo text-muted"
               >
-                <img src="imgs/Logo_York_University.svg" alt="" />
+                <img src="../imgs/Logo_York_University.svg" alt="" />
               </a>
             </p>
           </div>
@@ -309,7 +199,7 @@
                 href="https://downsviewpark.ca/events/bird-ambassador-program"
                 class="downsview-park-logo text-muted"
               >
-                <img src="imgs/downsview_park_logo.svg" alt="" />
+                <img src="../imgs/downsview_park_logo.svg" alt="" />
               </a>
             </p>
           </div>

@@ -1,16 +1,3 @@
-/*Color Palettes
-*/
-
-.set1 {
-  color: #a4243b #d8c99b #d8973c #bd632f #273e47;
-}
-.set2 {
-  color: #002400 #273b09 #58641d #7b904b #dbd2e0;
-}
-.set3 {
-  color: #585123 #eec170 #f2a65a #f58549 #772f1a;
-}
-
 :root {
   --light-green-palette: #c8ffd0;
   --dark-green-palette: #536255;
@@ -22,7 +9,7 @@
 body {
   padding: 0 !important;
   margin: 0;
-  background-color: var(--light-green-palette);
+  background-color: white;
 }
 
 .navbar {
@@ -34,7 +21,7 @@ body {
   margin-top: 5vh;
   margin-bottom: 5vh;
   width: 80vw;
-  border: 10px solid var(--green-grey-palette);
+  border: 10px solid var(--light-blue-palette);
   border-radius: 16px;
 }
 
@@ -48,23 +35,21 @@ body {
   padding: 0;
 }
 
-/*.carousel-item {
-  width: 900px;
-  height: 600px;
-}*/
-
-/*body {
-  background-color: rgb(221, 255, 244);
-}*/
-
-.york-logo {
-  width: 150px;
-}
-
-.downsview-park-logo {
-  width: 170px;
+.footer-boxes {
+  min-height: 400px;
+  width: 500px;
+  margin: 20px;
+  background-color: var(--light-blue-palette);
+  border-radius: 16px;
 }
 
 .made-by {
   text-decoration: none;
+}
+
+.about img {
+  max-width: 500px;
+  height: auto;
+  border: 10px solid var(--light-blue-palette);
+  border-radius: 16px;
 }
