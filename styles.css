@@ -53,3 +53,8 @@ body {
   border: 10px solid var(--light-blue-palette);
   border-radius: 16px;
 }
+
+.logo-img {
+  height: auto;
+  width: 100px;
+}
